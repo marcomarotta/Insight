@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: MARONN  
+    name: MammaMia  
     runtime: python  
     buildCommand: pip install -r requirements.txt  
     startCommand: python3 run.py  
@@ -13,5 +13,7 @@ services:
         value: 8080
       # Prompts for a value in the Render Dashboard on creation
       # (useful for secrets)
-      - key: e748f6325e992d91b83c836657622c99
+      - key: TMDB_KEY
+        sync: false
+      - key: PROXY
         sync: false
