@@ -72,11 +72,11 @@
             "AW_PROXY": "1"
         },
         "SkyStreaming": {
-            "url": "https://skystreaming.download",
+            "url": "https://skystreaming.icu",
             "enabled": "1"
         },
         "DaddyLiveHD": {
-            "url": "https://daddylive.mp",
+            "url": "https://daddylive.dad",
             "enabled": "1"
         }
     },
